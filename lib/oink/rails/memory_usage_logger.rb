@@ -25,6 +25,10 @@ module Oink
           proc_file.map do |line|
             size = line[/Size: *(\d+)/, 1] and size.to_i
           end.compact.sum
+        elsif proc_file = File.new("/proc/#{$$}/status") rescue nil
+          proc_file.map do |line|
+            size = line[/VmSize:\s*(\d+)/, 1] and size.to_i
+          end.compact.sum
         else
           `ps -o vsz= -p #{$$}`.to_i
         end
