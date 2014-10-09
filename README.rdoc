@@ -16,6 +16,10 @@ Given a minimum threshold and a metric (memory or active record instantiation), 
 2. The number of times each action exceeded the threshold for the metric, ordered by the action which exceeded the threshold the most
 3. (in verbose mode) The log lines produced by requests which exceeded the threshold
 
+
+
+
+
 Many thanks to Ben Johnson for Memory Usage Logger (http://github.com/binarylogic/memory_usage_logger/tree/master) which is the basis of this plugin.
 
 == Dependencies
