@@ -20,7 +20,6 @@ Many thanks to Ben Johnson for Memory Usage Logger (http://github.com/binarylogi
 
 == Dependencies
 
-
 Currently oink can only parse logs in the Hodel3000Logger format
 
 - http://github.com/topfunky/hodel_3000_compliant_logger
