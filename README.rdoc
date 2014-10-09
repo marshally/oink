@@ -17,9 +17,6 @@ Given a minimum threshold and a metric (memory or active record instantiation), 
 3. (in verbose mode) The log lines produced by requests which exceeded the threshold
 
 
-
-
-
 Many thanks to Ben Johnson for Memory Usage Logger (http://github.com/binarylogic/memory_usage_logger/tree/master) which is the basis of this plugin.
 
 == Dependencies
