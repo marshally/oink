@@ -20,10 +20,6 @@ Given a minimum threshold and a metric (memory or active record instantiation), 
 
 
 
-
-
-
-
 Many thanks to Ben Johnson for Memory Usage Logger (http://github.com/binarylogic/memory_usage_logger/tree/master) which is the basis of this plugin.
 
 == Dependencies
