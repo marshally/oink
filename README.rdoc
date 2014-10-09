@@ -1,7 +1,5 @@
 === Oink
 
-
-
 * http://github.com/noahd1/oink
 
 === Description
