@@ -8,6 +8,8 @@ Rails plugin and log parser to help narrow down the source(s) of increased memor
 
 === Synopsis
 
+
+
 Oink adds memory and active record instantiation information to rails log during runtime and provides an executable to help digest the enhanced logs.
 
 Given a minimum threshold and a metric (memory or active record instantiation), the oink executable reports:
